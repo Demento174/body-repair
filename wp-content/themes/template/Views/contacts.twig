@@ -1,0 +1,70 @@
+<section class="contacts">
+    {% if title %}
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                    {% include './blocks/title/h3.twig' %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                <div class="flex_row justify_between wrapper">
+                    <div class="left flex_column">
+                        {% for item in contacts %}
+                            <div class="line flex_row">
+
+                                <div class="icon center">
+                                    {{ item.icon | raw }}
+                                </div>
+
+                                <div class="content flex_column">
+                                    <h4 class="h4">
+                                        {{ item.title }}
+                                    </h4>
+                                    <div class="value">
+                                        {{ item.value | raw }}
+                                    </div>
+                                </div>
+
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                    <div class="right">
+                        <div class="line flex_row">
+
+                            <div class="icon center">
+                                {{ requisites.icon | raw }}
+                            </div>
+
+                            <div class="content flex_column">
+                                <h4 class="h4">
+                                    {{ requisites.title }}
+                                </h4>
+                                <div class="value">
+
+                                    <ul>
+                                        {% for item in requisites.value %}
+                                            <li>
+                                                {{ item.item }}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="map">
+        {{ map | raw }}
+    </section>
+</section>

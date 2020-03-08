@@ -1,0 +1,2 @@
+<?php
+renderBlock('Base\FooterBlock');

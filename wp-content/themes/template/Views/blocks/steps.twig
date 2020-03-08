@@ -1,0 +1,30 @@
+<section class="steps">
+    {% if title %}
+        <div class="container">
+            <div class="tow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                    {% include './blocks/title/h3.twig' %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                <div class="wrapper flex_row justify_around">
+                    {% for item in items %}
+                        <div class="item flex_column align_center">
+                            <div class="icon center">
+                                <img src="{{ item.img }}" alt="{{ item.img.alt }}">
+                            </div>
+                            <span class="title">
+                                {{ item.title }}
+                            </span>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

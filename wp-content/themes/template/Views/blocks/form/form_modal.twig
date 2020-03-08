@@ -1,0 +1,18 @@
+{% set data = form_modal() %}
+<form action="/" class="_form">
+    <div class="flex_column align_center">
+        <h4 class="h4">{{ data.title }}</h4>
+        <input data-name="form" type="hidden" value="Заявка с сайта">
+        <input type="text" class="input" placeholder="Ваше Имя" data-name = "name">
+        <input type="tel" class="input" placeholder="Контактный телефон" data-name = "phone">
+        {% include './blocks/form/personal.twig' %}
+        <button class="btn btn--brown send">
+            обсудить проект
+        </button>
+        <div class="response">
+            {{ data.response }}
+        </div>
+    </div>
+
+</form>
+

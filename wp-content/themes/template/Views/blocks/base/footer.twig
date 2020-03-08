@@ -1,0 +1,30 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            {% for item in menu %}
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-lg-4">
+                <div class="flex_column">
+                    <h4 class="h4">
+                        {{ item.title }}
+                    </h4>
+                    <nav class="flex_row align_start flex_wrap">
+                        {% for link in item.links %}
+                            <li>
+                                <a href="{{ get_permalink(link.ID) }}">{{ link.post_title }}</a>
+                            </li>
+                        {% endfor %}
+                    </nav>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            {% include './blocks/details/social.twig' %}
+        </div>
+    </div>
+
+</footer>
+{% include './blocks/base/modal.twig' %}
+{{ wp_footer() }}
+
+</body>

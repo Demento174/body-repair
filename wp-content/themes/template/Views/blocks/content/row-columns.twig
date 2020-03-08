@@ -1,0 +1,28 @@
+<section class="row-columns {{ class }}" >
+
+    <div class="container">
+        <div class="row">
+            {% if title %}
+                {% include './blocks/title/h3.twig' with { title:title } %}
+            {% endif %}
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                <div class="wrapper flex_row align_start justify_around flex_wrap">
+                    {% for item in items %}
+                        <div class="item">
+                            {% if item.title %}
+                                <h4 class="h4">
+                                    {{ item.title }}
+                                </h4>
+                            {% endif %}
+                            {% if item.content %}
+                                <p class="content">
+                                    {{ item.content }}
+                                </p>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
+                <div class="logo">
+                    <a class="align_end" href="{{ logo.link }}"><img src="{{ logo.img.url }}" alt="{{ logo.img.alt }}"></a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
+                <span class="text">
+                    {{ content }}
+                </span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
+                <span class="text">
+                    {{ address }}
+                </span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
+                <span class="text">
+                    {{ working_hours | raw }}
+                </span>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lg-4">
+                <div class="flex_row justify_center phone_btn">
+                    <a href="tel:{{ phone }}" class="btn btn--opacity">
+                        {{ phone }}
+                    </a>
+                    <div class="btn btn--dark btn--callback" data-target="#callback" data-title="{{ get_field('formModal_title','options') }}" data-toggle="modal">
+                        Обратный звонок
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,32 @@
+
+<a href="{{ item.link }}" class="card-furniture flex_column justify_between {{ class }}" data-cat="{{ item.taxonomy.terms.slug }}">
+    {% if item.icon %}
+        <div class="icon center">
+            <img src="{{ item.icon.url }}" alt="{{ item.icon.alt }}">
+        </div>
+    {% endif %}
+    <div class="img">
+        {% if item.acf.gallery and item.acf.gallery != 'gallery'  %}
+            {% include './blocks/carousels/carousel-img.twig' with { items:item.acf.gallery,title:'' } %}
+        {% else %}
+            <img src="{{ item.img }}" alt="{{ item.img.alt }}">
+        {% endif %}
+    </div>
+    <div class="titles flex_column">
+        <h4 class="h4">{{ item.title }}</h4>
+        <span class="subtitle">{{ item.acf.subtitle }}</span>
+    </div>
+    <div class="footer flex_row justify_between">
+        <div class="price">
+            <span class="number-division">{{ item.acf.price }}</span> ₽
+        </div>
+        <div class="deadline">
+            {{ item.acf.deadline }}
+        </div>
+    </div>
+    <div class="btn--wrapper">
+        <div class="btn btn--brown btn--callback" data-toggle="modal" data-title="Оставить заявку на {{ item.title }}" data-target="#callback">
+            Оставить заявку
+        </div>
+    </div>
+</a>

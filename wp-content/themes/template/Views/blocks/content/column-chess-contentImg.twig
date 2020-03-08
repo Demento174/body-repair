@@ -1,0 +1,63 @@
+{% if link %}
+    {% include './blocks/content/row-string.twig' with {content: link,class:'bWhiteD1 toggle_link'} %}
+{% endif %}
+<section class="column-chess-contentImg {{ class }}" {% if id %}id="{{ id }}"{% endif %}>
+    <div class="container">
+        {% if title %}
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                    {% include './blocks/title/h3.twig' with { title:title } %}
+                </div>
+            </div>
+        {% endif %}
+        {% for item in items %}
+            {% if loop.index%2 != 0 %}
+                <div class="item left">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-lg-6">
+                            <div class="h4">
+                                {{ item.title }}
+                            </div>
+                            <ul class="list">
+                                <li>
+                                <span class="li-description">
+                                    {{ item.content }}
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-lg-6">
+                            <div class="img">
+                                <img src="{{ item.media.url }}" alt="{{ item.media.alt }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            {% else %}
+                <div class="item right">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-lg-6">
+                            <div class="img">
+                                <img src="{{ item.media.url }}" alt="{{ item.media.alt }}">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-lg-6">
+                            <div class="h4">
+                                {{ item.title }}
+                            </div>
+                            <ul class="list">
+                                <li>
+                                <span class="li-description">
+                                    {{ item.content }}
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>

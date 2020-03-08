@@ -1,0 +1,22 @@
+<section class="modal modal_hide modal_data fade" id="callback" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			{% include './blocks/form/form_modal.twig' %}
+			</div>
+		</div>
+	</div>
+</section>
+<section class="modal modal_hide modal_data fade" id="personal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			{{ get_field('personal','options') }}
+		</div>
+	</div>
+	</div>
+</section>

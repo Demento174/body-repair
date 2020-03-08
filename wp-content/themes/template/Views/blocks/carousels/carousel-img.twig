@@ -1,0 +1,8 @@
+{% if title %}
+    {% include './blocks/title/h3.twig' with {class:'textCenter'} %}
+{% endif %}
+<div class="owl-carousel owl-theme  {% if owlClass %}{{ owlClass }}{% else %} carousel-img {% endif %}">
+    {% for item in items %}
+        <img src="{{ item.url }}" alt="{{ item.alt }}">
+    {% endfor %}
+</div>

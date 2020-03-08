@@ -1,0 +1,9 @@
+
+<h3 class="h3 {{ title.class }}">
+    {{ title.title | raw }}
+    {% if title.subtitle %}
+        <span class="subtitle">
+            {{ title.subtitle }}
+        </span>
+    {% endif %}
+</h3>

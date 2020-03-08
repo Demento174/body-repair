@@ -1,0 +1,22 @@
+<section class="about" >
+    <div class="container">
+        <div class="row">
+            {% for item in items %}
+                {% if item.type == 'video' %}
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-lg-6">
+                        <div class="item">
+                            <video src="{{ item.url }}" controls width="100%"></video>
+                        </div>
+                    </div>
+                {% elseif item.url  %}
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lg-3">
+                        <a href="{{ item.url }}" class="item center fancybox">
+                            <img src="{{ item.url }}" alt="{{ item.img.src }}">
+                        </a>
+                    </div>
+
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

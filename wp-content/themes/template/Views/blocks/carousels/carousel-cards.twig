@@ -1,0 +1,18 @@
+<div class="carousel-card {{ class }}">
+    {% if title %}
+        {% include './blocks/title/h3.twig' with { title:title } %}
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                <div class="owl-carousel owl-theme owl-carousel-card">
+                    {% for item in items %}
+                        {% include './blocks/cards/card-'~template~'.twig'with { item:item } %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

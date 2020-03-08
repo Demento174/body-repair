@@ -1,0 +1,29 @@
+<section class="cases">
+
+    <div class="nav-wrapper bWhiteD1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                    <nav class="flex_row justify_center">
+                        <li data-cat="0" class="active">Все</li>
+                        {% for item in cats %}
+                            <li data-cat="{{ item.slug }}">{{ item.title }}</li>
+                        {% endfor %}
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                {% for item in items %}
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-lg-4">
+                        {% include './blocks/cards/card-furniture.twig' with { item:item } %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

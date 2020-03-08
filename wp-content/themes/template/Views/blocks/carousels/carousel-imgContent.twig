@@ -1,0 +1,26 @@
+<section class="carousel-imgContent {{ class }}">
+    <div class="container-fluid">
+        {% if title %}
+            {% include './blocks/title/h3.twig' with { title:title } %}
+        {% endif %}
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
+                <div class="owl-carousel owl-theme">
+                    {% for item in items %}
+                        <div class="item flex_column">
+                            <div class="img">
+                                <img src="{{ item.img.url }}" alt="{{ item.img.alt }}">
+                            </div>
+                            <div class="content">
+                                <h5 class="h5">{{ item.title }}</h5>
+                                <div class="description">
+                                    {{ item.description }}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
