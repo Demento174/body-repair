@@ -1,0 +1,60 @@
+<section class="s_portfolio">
+    <div class="container">
+        <div class="s_portfolio__list">
+            {% for item in items %}
+                <div class="row s_portfolio__itm" {% if loop.index > 3 %} style="display: none"{% endif %}>
+                    <h2 class="s_title col-12">{{ item.title }}</h2>
+                    <div class="col-6">
+                        <div class="s_portfolio__itm__thumb s_portfolio__itm__thumb-before">
+                            <img src="{{ item.img_before.url }}" alt="{{ item.img_before.alt }}">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="s_portfolio__itm__thumb s_portfolio__itm__thumb-after">
+                            <img src="{{ item.img_after.url }}" alt="{{ item.img_after.url }}">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="s_portfolio__itm__info">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <div class="s_portfolio__itm__descr">{{ item.description }}</div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <div class="s_portfolio__itm__params">
+                                        <div class="s_portfolio__itm__param">
+                                            <div class="s_portfolio__itm__param__ico">
+                                                <img src="{{ icons.credit.url }}" alt="{{ icon.credit.alt }}">
+                                            </div>
+                                            <div class="s_portfolio__itm__param__val">
+                                                <p>Цена:</p>
+                                                <p><b>{{ item.price }} ₽</b></p>
+                                            </div>
+                                        </div>
+                                        <div class="s_portfolio__itm__param">
+                                            <div class="s_portfolio__itm__param__ico">
+                                                <img src="{{ icons.deadline.url }}" alt="{{ icons.deadline.alt }}" width="63">
+                                            </div>
+                                            <div class="s_portfolio__itm__param__val">
+                                                <p>Сроки:</p>
+                                                <p><b>{{ item.deadline }}</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="d-flex justify-content-center">
+
+        <button class="btn_more btn_more_portfolio"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="23px">
+          <path fill-rule="evenodd" fill="rgb(0, 38, 114)" d="M17.962,4.744 C16.239,3.352 13.862,2.492 11.500,2.492 C6.524,2.492 2.490,6.526 2.490,11.501 C2.490,12.124 1.986,12.628 1.364,12.628 C0.742,12.628 0.238,12.124 0.238,11.501 C0.238,5.281 5.280,0.239 11.500,0.239 C14.371,0.239 17.252,1.271 19.384,2.997 L19.384,1.365 C19.384,0.743 19.888,0.239 20.510,0.239 C21.132,0.239 21.636,0.743 21.636,1.365 L21.636,5.870 C21.636,6.492 21.132,6.997 20.510,6.997 L16.005,6.997 C15.383,6.997 14.879,6.492 14.879,5.870 C14.879,5.248 15.383,4.744 16.005,4.744 L17.962,4.744 ZM3.616,20.006 L3.616,21.637 C3.616,22.260 3.112,22.764 2.490,22.764 C1.868,22.764 1.364,22.260 1.364,21.637 L1.364,17.133 C1.364,16.511 1.868,16.006 2.490,16.006 L6.995,16.006 C7.617,16.006 8.121,16.511 8.121,17.133 C8.121,17.755 7.617,18.259 6.995,18.259 L5.038,18.259 C6.761,19.651 9.138,20.511 11.500,20.511 C16.476,20.511 20.510,16.478 20.510,11.501 C20.510,10.879 21.014,10.375 21.636,10.375 C22.258,10.375 22.762,10.879 22.762,11.501 C22.762,17.722 17.720,22.764 11.500,22.764 C8.629,22.764 5.748,21.732 3.616,20.006 Z"></path>
+        </svg></span>Показать ещё работы</button>
+    </div>
+</div>

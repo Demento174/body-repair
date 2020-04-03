@@ -1,0 +1,209 @@
+2020-03-25T07:09:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:09:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:09:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:09:58+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:10:36+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:10:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:10:38+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:11:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:11:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:11:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:11:20+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:74
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 74
+
+2020-03-25T07:35:31+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(752)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:35:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(753)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:35:38+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(754)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:35:38+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(755)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:35:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(756)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:36:17+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(757)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:37:03+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(NULL)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(758)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:38:11+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(8)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(759)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru/pu в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(8)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(760)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru/pu в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:40:35+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:46
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(8)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(761)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru/pu в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 46
+
+2020-03-25T07:43:48+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:54
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(28): Controllers\PostsAndTax\PostProduct->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/UploadAttachmentBySku/UploadAttachmentBySku.php(76): Controllers\PostsAndTax\PostProduct->__construct(8)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(290): Controllers\UploadAttachmentBySku\UploadAttachmentBySku->handler_by_save_post(762)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru/pu в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 54
+
+2020-03-25T12:15:37+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+

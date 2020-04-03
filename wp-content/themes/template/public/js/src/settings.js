@@ -2,95 +2,151 @@ export const Config =
     {
         modules:
             {
-                tabs:
-                    {
-                        selectors:
-                            {
-                                links:'.link',
-                                tabs:'.content',
-                                active:'active'
-                            },
-                    },
                 numberDivision:
                     {
                         selector:'.number-division'
                     },
                 mapWrapper:
                     {
-                        selector:'section.map',
+                        selector:'.s_info__map',
                         mapWrapperContent:"Нажмите,что бы воспользоваться картой"
                     },
-                heightBlocksInGrid:
+                FilterItems:
                     {
                         selectors:
-                            [
-                                '.carousel-card  .card-furniture',
-                                '.cases .card-furniture',
-                                '.catalog-all .card-furniture'
-                            ],
+                            {
+                                filterBlock:'.catalog__current_filters__itm',
+                                filterBlockMarkClass:'mark',
+                                filterBlockDetailClass:'detail',
+                                marksControl:'.catalog__filter__select',
+                                detailsControl:'.catalog__filter__group input',
+                                mainWrapper : '.catalog__list',
+                                wrappers:'.catalog__list .wrapper',
+                                items:'.catalog__itm',
+                                itemTitle:'.catalog__itm__title',
+                                hiddenItems:'.hidden_items',
+                                removeButtons:'.remove_btn',
+                                removeButtonWrapper:'.catalog__current_filters__itm',
+                                searchBtn:'.catalog__search__submit',
+                                searchInput:'.catalog__search__input',
+                            },
+                        displaysStyle:
+                            {
+                                detailsControl:'inline-flex',
+                                item:"flex"
+                            },
+                        attributeId:'data-id',
+                        attributeNone:'data-none',
+                        attributeActive:'data-active',
+                        attributeCats:'data-cats',
+                        attributePaginationQuantity:'data-paginationQuantity'
                     },
-                FilterItems:
-                    [
-                        {
-                            control:'.cases .nav-wrapper li',
-                            items:'.cases .wrapper .card-furniture',
-                            bootstrap:true,
-                        },
-                    ],
+                loadMorePortfolio:
+                    {
+                        selectors:
+                            {
+                                items:'.s_portfolio__list .s_portfolio__itm',
+                                btn:'.btn_more_portfolio',
+                            },
+                        count:3
+
+                    },
+                pagination:
+                    {
+                        selectors:
+                            {
+                                wrapper:'.catalog__pager',
+                                list:'ul',
+                                item:'li',
+                                prev:'.catalog__pager__prev',
+                                next:'.catalog__pager__next',
+                                pages:'.catalog__list .wrapper',
+                            },
+                        activeClass:'active',
+                        attribute:'data-number'
+
+                    },
             },
     };
 
-export const carousels =
-    [
-        {
-            selector:'.owl-carousel-card',
-            options:
-                {
-                    items:3,
-                    dots:false,
-                    nav:true,
-                    mouseDrag:false,
-                    navElement:'nav',
-                    loop:true,
-                    responsive : {
-                        0 : {
-                            items:1,
-                        },
-                        768 : {
-                            items:3,
-                        }
-                    }
-                },
-        },
-    ];
-export const carouselsConfig =
-    {
-        classes: [ 'owl-theme','owl-carousel'],
-    };
+
 
 export const  formConfig =
     {
         'selectors' :
             {
                 'forms':'form._form',
-                'send':'.send'
+                'send':'.send',
+                'response':'.response',
+            },
+         'action': 'send_form'
+    };
+
+export const replaceInputValue =
+    {
+        attributes:
+            {
+                target:'data-replace-target',
+                value:'data-replace-value',
+                attribute:'data-replace-attribute'
             }
     };
 
-export const fancyBoxConfig =
+export const WooCommerceConfig =
     {
-        selector:'.fancybox',
-        selectorGallery:'[data-fancybox-warpper]',
-        classNameZoom:'icon_zoom',
-        options:
+        AddProductToCart :
             {
-                type:'image',
-                opts:
+                buttonAdd:
                     {
-                        modal:true,
-                        showCloseButton:true,
-                        hideOnContentClick:true,
+                        selector:'.btn__buy',
+                        attributeId:'data-id',
+                        attributeQuantity:'data-quantity'
                     },
+                messageBlock:'.messageAfterBuy'
 
             },
+        RemoveProductFromCart :
+            {
+                buttonRemove:
+                    {
+                        selector:'.btn__remove',
+                        attributeId:'data-id',
+                    },
+                    basketItemSelector:'.s_catr__itm',
+            },
+        changeQunatityInCart:
+            {
+              selectors:
+                  {
+                      btnAdd:'.cnt_input__btns .plusProduct',
+                      btnMinus:'.cnt_input__btns .minusProduct',
+                      basketItem:'.s_catr__itm',
+                      input:'.cnt_input input',
+                      classAdd:'plus',
+                      classMinus:'minus',
+                  },
+                attributeId:'data-id',
+            },
+        Cart:
+            {
+                selectors:
+                    {
+                        quantityElement:'.header__cart__cnt',
+                        amountWrapper:'.header__cart__val',
+                        amountElement:'.header__cart__val b',
+                        amountEmpty:'.header__cart__val p',
+                        amountCartPage:'.s_catr__total b'
+                    },
+                emptyText:'Ваша корзина пуста',
+            }
+
+    };
+
+export const action_AJAX =
+    {
+        'add_to_cart':'woocommerce_add_to_cart',
+        'removeFromBasket':'removeFromBasket',
+        'quantity_in_cart':'cart_items_count',
+        'cart_amount':'cart_amount',
+        'changeQuantityInCart':'changeQuantityInCart',
     };

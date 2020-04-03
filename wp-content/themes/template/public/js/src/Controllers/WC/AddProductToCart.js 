@@ -1,0 +1,110 @@
+import { WooCommerceConfig } from "../../settings";
+import AddHandlerForEvent from "../AddHandlerForEvent";
+import WordPressAJAX from "../WordPressAJAX";
+import UpdateCart from "./UpdateCart";
+import anime from 'animejs/lib/anime.es.js';
+import {getParent, queryElement} from "../../common";
+import HeightBlocksInGrid from "../../modules/HeightBlocksInGrid";
+
+
+const defaultSettings = WooCommerceConfig.AddProductToCart;
+
+export default class AddProductToCart {
+    constructor(settings= { })
+    {
+
+        this.settings =  JSON.stringify(settings) == '{}'?defaultSettings:settings;
+
+        this.buttonsBuy = this.settings.buttonAdd.selector;
+        this.messageBlock = this.settings.messageBlock;
+        this.attributeId = this.settings.buttonAdd.attributeId;
+        this.attributeQuantity = this.settings.buttonAdd.attributeQuantity;
+
+        if(this.buttonsBuy)
+        {
+            this.buttonsBuy.forEach(buttonBuy=>
+            {
+                new AddHandlerForEvent(buttonBuy,'click',event=>{
+
+                    const btn = getParent(event.target,this.settings.buttonAdd.selector);
+
+                    if(!btn.getAttribute(this.attributeId) )
+                    {
+                        console.error(`${btn} has no id attribute`);
+                    }else
+                        {
+                            this.handler(btn.getAttribute(this.attributeId),btn.hasAttribute(this.attributeQuantity)?btn.getAttribute(this.attributeQuantity):1);
+
+                        }
+                });
+            });
+        }
+    }
+
+    set buttonsBuy(selector)
+    {
+        this._buttonsBuy = document.querySelectorAll(selector);
+    }
+
+    get buttonsBuy()
+    {
+        return this._buttonsBuy;
+    }
+
+    set messageBlock(selector)
+    {
+        this._messageBlock = queryElement(selector);
+    }
+
+    get messageBlock()
+    {
+        return this._messageBlock;
+    }
+
+    handler(id,quantity)
+    {
+
+
+
+        new WordPressAJAX('add_to_cart',
+            {
+                    "product_id":id,
+                    "product_sku":'',
+                    "quantity":quantity,
+                 },
+                this.callback.bind(this)
+            );
+
+    }
+
+    mobileCallback()
+    {
+
+        anime({
+            targets: this.messageBlock,
+            translateY: -65,
+            duration: 800
+        });
+
+        setTimeout(()=>{
+
+            anime({
+                targets: this.messageBlock,
+                translateY: 65,
+                duration: 800
+            });
+
+        },1500)
+    }
+
+    callback(response)
+    {
+
+        console.log(`Товар добавлен в корзину`);
+        new UpdateCart();
+        // if(document.documentElement.clientWidth <= 520)
+        // {
+            this.mobileCallback();
+        // }
+    }
+}

@@ -35,7 +35,7 @@ function wpa_start_plugin() {
 	$methodsAJAX=get_class_methods('SimpleAJAX');
 	unset($methodsAJAX[array_search('__construct', $methodsAJAX)]);
 
-	$plugin = new SimpleAJAX($methodsAJAX);
+	 new SimpleAJAX($methodsAJAX);
 
 }
 

@@ -1,0 +1,15 @@
+<section class="s_consult_form bg-blue">
+    <div class="container">
+        <h2 class="s_title">{{ title }}</h2>
+        <form class="form _form mobile_flex_column mobile_align_center">
+            <input type="hidden" value="Форма: {{ title }}" data-name="form" data-title="Форма">
+            <div class="form__input">
+                <input type="text" data-name="email"  placeholder="Email адрес">
+            </div>
+            <button type="submit" class="btn send">{{ btn }}</button>
+            <div class="response">
+                {{ response }}
+            </div>
+        </form>
+    </div>
+</section>

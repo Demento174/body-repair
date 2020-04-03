@@ -2,6 +2,8 @@
 namespace Controllers\Blocks\BlocksControllers\Base;
 
 
+use Controllers\WC\WCController;
+
 class HeaderBlock extends \Controllers\Blocks\BlockAbstractController {
 
     static $options  =
@@ -10,7 +12,7 @@ class HeaderBlock extends \Controllers\Blocks\BlockAbstractController {
              'templateHeader'  => './blocks/base/header.twig',
              'templateNavigation'  => './blocks/base/navigation.twig',
              'id' => 'options',
-             'fields' => ['logo','content','address','working_hours','phone'],
+             'fields' => ['logo','content','address','working_hours','phone','basket_img'],
         ];
 
     public function __construct($options=[],$id = null)
@@ -33,18 +35,19 @@ class HeaderBlock extends \Controllers\Blocks\BlockAbstractController {
                 'address'=>$this->acf['address'],
                 'working_hours'=>$this->acf['working_hours'],
                 'phone'=>$this->acf['phone'],
+                'basket_icon'=>$this->acf['basket_img'],
+                'count'=>\Controllers\WC\WCController::get_countItemInTheBasket(),
+                'cart_url'=>wc_get_cart_url(),
+                'total_price'=>WCController::get_totalBasketPrice()
             ];
     }
 
-    private function set_menu()
-    {
-
-    }
 
     public function render()
     {
+
         \Timber::render(static::$options['templateHead']);
         \Timber::render(static::$options['templateHeader'],$this->data);
-        \Timber::render(static::$options['templateNavigation'],$this->data);
+//        \Timber::render(static::$options['templateNavigation'],$this->data);
     }
 }

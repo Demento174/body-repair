@@ -1,7 +1,7 @@
 {
-  "name": "verstak",
+  "name": "body-repair",
   "version": "1.0.0",
-  "description": "verstak.local",
+  "description": "body-repair",
   "main": "./js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,6 +35,10 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "owl.carousel": "^2.3.4"
+    "animejs": "^3.1.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.16.1",
+    "selectize": "^0.12.6",
+    "tap.js": "^2.2.0"
   }
 }

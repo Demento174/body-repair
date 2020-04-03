@@ -1,0 +1,352 @@
+2020-03-23T08:05:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:07:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:09:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:11:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:13:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:15:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:17:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:19:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:21:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:23:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:25:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:27:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:29:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:31:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:33:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:35:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:37:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:39:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:41:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:43:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:45:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:45:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:45:33+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:47:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:49:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:51:30+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:53:31+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:55:32+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:57:33+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:59:00+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T08:59:02+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-23T11:19:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Controllers\WC\WCController::createOrder(), 0 passed in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php on line 82 and exactly 1 expected in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(82): Controllers\WC\WCController::createOrder()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->send_form('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_send_fo...')
+#5 {main}
+  th в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 77
+
+2020-03-23T11:19:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Controllers\WC\WCController::createOrder(), 0 passed in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php on line 82 and exactly 1 expected in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(82): Controllers\WC\WCController::createOrder()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->send_form('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_send_fo...')
+#5 {main}
+  th в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 77
+
+2020-03-23T11:19:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Controllers\WC\WCController::createOrder(), 0 passed in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php on line 82 and exactly 1 expected in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(82): Controllers\WC\WCController::createOrder()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->send_form('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_send_fo...')
+#5 {main}
+  th в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 77
+
+2020-03-23T11:19:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Controllers\WC\WCController::createOrder(), 0 passed in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php on line 82 and exactly 1 expected in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(82): Controllers\WC\WCController::createOrder()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->send_form('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_send_fo...')
+#5 {main}
+  th в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 77
+
+2020-03-23T12:17:42+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-23T15:40:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/simple-woocommerce-csv-loader/admin/CSVLoader.php:262
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin.php(286): include()
+#1 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/simple-woocommerce-csv-loader/admin/CSVLoader.php на строке 262
+
+2020-03-23T16:45:06+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 61
+
+2020-03-23T16:53:10+00:00 CRITICAL Cannot redeclare log() в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 67
+
+2020-03-23T16:53:11+00:00 CRITICAL Cannot redeclare log() в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 67
+
+2020-03-23T16:53:16+00:00 CRITICAL Cannot redeclare log() в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 67
+
+2020-03-23T17:00:42+00:00 CRITICAL Object of class WP_Post could not be converted to string в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 63
+
+2020-03-23T17:00:51+00:00 CRITICAL Object of class WP_Post could not be converted to string в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 63
+
+2020-03-23T17:01:24+00:00 CRITICAL Object of class WP_Post could not be converted to string в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 63
+
+2020-03-23T17:37:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 68
+

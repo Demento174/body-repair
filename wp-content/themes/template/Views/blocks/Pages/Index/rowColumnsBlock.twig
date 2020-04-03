@@ -1,0 +1,24 @@
+<section class="s_intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-7 mx-auto">
+                <h1 class="p_title">{{ title }}</h1>
+            </div>
+        </div>
+        <div class="row s_intro__benefits mobile_flex_column mobile_align_center">
+            {% for item in items %}
+                <div class=" col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="s_intro__benefits__itm mobile_flex_column mobile_align_center">
+                        <div class="s_intro__benefits__itm__ico">
+                            <img src="{{ item.img.url }}" alt="{{ item.img.alt }}">
+                        </div>
+                        <div class="s_intro__benefits__itm__text">
+                            <div class="s_intro__benefits__itm__title mobile_textCenter">{{ item.title }}</div>
+                            <p class="mobile_textCenter">{{ item.content }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

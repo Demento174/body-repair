@@ -5,8 +5,8 @@ use TaxonomyAbstract;
 
 class PostAbstract{
     protected $type;
-    protected $id;
 
+    public $id;
     public $acf;
     public $title;
     public $link;
@@ -98,7 +98,7 @@ class PostAbstract{
     public static function get_all_posts($type,$className)
     {
 
-        return self::convert_post(get_posts(['post_type'=>$type,'numberposts'=>-1,]),$className);
+        return self::convert_post(get_posts(['post_type'=>$type,'numberposts'=>-1,'orderby'=>'name','order'=>'ASC']),$className);
     }
 
     public static function get_sample_posts($include,$type,$className)
@@ -109,7 +109,7 @@ class PostAbstract{
 
     public static function get_taxonomy_posts($tax_id,$tax_slug,$type,$className)
     {
-        
+
         $input =  get_posts(
             [
                 'post_type' => $type,

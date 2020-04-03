@@ -1,0 +1,93 @@
+@media screen and (max-width: @mobMax){
+  .mobile_{
+    &textCenter{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: @mobMax) {
+  html{
+    margin-top: 0 !important;
+    body{
+
+      #wpadminbar{
+        display: none !important;
+      }
+      #page-wrap{
+
+        header.header{
+          margin-bottom: 100px;
+          .header__messengers{
+            transform: scale(1.3);
+            margin: 1rem 0;
+          }
+          .header__tel{
+            transform: scale(1.3);
+          }
+          .header__bot{
+            padding-top: 10px;
+            padding-bottom:10px ;
+          }
+          .header__logo{
+            width: 100%;
+          }
+        }
+        .s_info{
+          .img-responsive{
+            margin: 10px 0;
+          }
+        }
+        .catalog{
+          .catalog__search{
+            margin-top: 30px;
+          }
+          .wrapper{
+            margin-bottom: 30px;
+            .catalog__itm{
+              flex-direction: column;
+              .catalog__itm__thumb{
+                display: none;
+              }
+            }
+          }
+
+        }
+        .s_card__roadmap__list{
+          .s_roadmap__itm{
+            width: 100%;
+            margin-bottom: 50px;
+          }
+        }
+        .s_card__roadmap__list{
+          .s_roadmap__itm{
+            width: 100%;
+          }
+        }
+        .s_services__intro__img{
+          position: static;
+          margin: 10px 0;
+        }
+        .s_offer_form__img{
+          img{
+            max-width: 100%;
+          }
+        }
+        .s_portfolio__itm__thumb-before:after,.s_portfolio__itm__thumb:after{
+          transform: scale(0.5);
+          bottom: -7px;
+          right: 10px;
+        }
+      }//#page-wrap
+      .modal-content{
+        .btn{
+          min-width: 200px;
+        }
+      }
+      .p_title{
+        font-size: 28px;
+      }
+
+    }//body
+  }//html
+}//media

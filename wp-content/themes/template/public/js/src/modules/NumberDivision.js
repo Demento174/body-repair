@@ -1,6 +1,6 @@
 import { Config } from "../settings";
 const settings = Config.modules.numberDivision;
-import { queryElement } from "../common";
+
 
 export default class NumberDivision {
     constructor(selector='')
@@ -29,6 +29,10 @@ export default class NumberDivision {
         numb = String(numb);
 
         switch (numb.length) {
+            case 8:
+                numb = numb.slice(0, 2) + ' ' + numb.slice(2, 5) + ' ' + numb.slice(5, 20);
+                break;
+
             case 7:
                 numb = numb.slice(0, 1) + ' ' + numb.slice(1, 4) + ' ' + numb.slice(4, 20);
                 break;
@@ -41,10 +45,12 @@ export default class NumberDivision {
                 numb = numb.slice(0, 2) + ' ' + numb.slice(2, 6);
                 break;
 
+            case 4:
+                numb = numb.slice(0, 1) + ' ' + numb.slice(1, 6);
+                break;
             default:
 
         }
-
         return numb;
     }
 }

@@ -1,0 +1,61 @@
+2020-03-11T11:42:04+00:00 CRITICAL syntax error, unexpected '/' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php на строке 15
+
+2020-03-11T12:22:50+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-11T12:34:28+00:00 CRITICAL Uncaught Error: Class '\Controllers\Blocks\BlocksControllers\Content/RowColumnsBlock' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:34
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php(7): renderBlock('\\Controllers\\Bl...', Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 34
+
+2020-03-11T13:22:52+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unexpected token "name" of value "col" ("end of statement block" expected). in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig:6
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/IfTokenParser.php(40): Twig\TokenStream->expect(3)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/tim в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig на строке 6
+
+2020-03-11T13:23:32+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unexpected token "punctuation" of value "{" ("end of statement block" expected). in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig:6
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/IfTokenParser.php(40): Twig\TokenStream->expect(3)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugin в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig на строке 6
+
+2020-03-11T13:23:42+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unexpected token "name" of value "col" ("end of statement block" expected). in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig:6
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/IfTokenParser.php(40): Twig\TokenStream->expect(3)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/tim в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/cat_links.twig на строке 6
+
+2020-03-11T13:44:46+00:00 CRITICAL Uncaught Error: Cannot access protected property Controllers\PostsAndTax\TaxProductTag::$id in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:50
+Stack trace:
+#0 [internal function]: sort_cat(Object(Controllers\PostsAndTax\TaxProductTag), Object(Controllers\PostsAndTax\TaxProductTag))
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/CatLinksBlock.php(22): usort(Array, 'sort_cat')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php(22): Controllers\Blocks\BlocksControllers\CatLinksBlock->set_data()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/CatLinksBlock.php(16): Controllers\Blocks\BlockAbstractController->__construct('./blocks/cat_li...', 'options', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php( в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 50
+
+2020-03-11T13:44:57+00:00 CRITICAL Uncaught Error: Cannot access protected property Controllers\PostsAndTax\TaxProductTag::$id in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:50
+Stack trace:
+#0 [internal function]: sort_cat(Object(Controllers\PostsAndTax\TaxProductTag), Object(Controllers\PostsAndTax\TaxProductTag))
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/CatLinksBlock.php(22): usort(Array, 'sort_cat')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php(22): Controllers\Blocks\BlocksControllers\CatLinksBlock->set_data()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/CatLinksBlock.php(16): Controllers\Blocks\BlockAbstractController->__construct('./blocks/cat_li...', 'options', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php( в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 50
+
+2020-03-11T13:48:00+00:00 CRITICAL syntax error, unexpected '$this' (T_VARIABLE) в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/CatLinksBlock.php на строке 22
+

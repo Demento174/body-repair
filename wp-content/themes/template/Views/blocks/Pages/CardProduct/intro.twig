@@ -1,0 +1,60 @@
+<section class="s_card">
+    <div class="container">
+        <div class="row">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="s_card__preview">
+                    {% if img %}
+                        <img src="{{ img }}" alt="{{ title }}">
+                    {% else %}
+                        <img src="{{ default_img.url }}" alt="{{ title }}">
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="s_card__info">
+                    <a href="{{ link_back }}" class="s_card__back_link"><svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.5 1.5L1.5 5.5L5.5 9.5" stroke="currentColor" stroke-width="2"></path></svg>вернуться в каталог</a>
+                    <h1 class="s_card__title">{{ title }}</h1>
+                    <ul class="s_card__params">
+                        {% for item in attributes %}
+                            <li>
+                                <div class="label">{{ item.title }}:</div>
+                                <div class="val">{{ item.value }}</div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="s_card__price">{{ price }} ₽</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cnt_input">
+                                <input type="number" value="1" class="quantityValue">
+                                <div class="cnt_input__btns">
+                                    <button class="plus btn__quantity"><svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.5 5.5L5.5 1.5L1.5 5.5" stroke="#808080" stroke-width="2"></path>
+                                        </svg>
+                                    </button>
+                                    <button class="minus btn__quantity"><svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.5L5.5 5.5L9.5 1.5" stroke="#808080" stroke-width="2"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s_card__btns">
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="btn btn-reverce btn__buy" data-id="{{ id }}" data-quantity="1">положить в корзину</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn_to_book" data-toggle="modal" data-target="#name_phone_product" data-product="{{ title }}" data-form="Заказ товара: {{ title }}" data-quantity="1" data-number="{{ number }}">забронировать в 1 клик</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

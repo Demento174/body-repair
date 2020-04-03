@@ -1,0 +1,87 @@
+2020-03-15T12:27:28+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 39
+
+2020-03-15T12:31:01+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-15T12:44:46+00:00 CRITICAL Uncaught Error: Class 'Controllers\Blocks\Exception' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:54
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(38): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/footer.php(2): renderBlock('\\Controllers\\Bl...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(722): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(671): load_template('/home/i/infovok...', true)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/general-template.php(76): locate_template(Array, true)
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php(11): get_footer()
+#6 /home/i/infovokh/body-repair. в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 54
+
+2020-03-15T12:44:59+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: #9A1E26">./blocks/base/footer1.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:54
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(38): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/footer.php(2): renderBlock('\\Controllers\\Bl...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(722): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(671): load_template('/home/i/infovok...', true)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/general-template.php(76): locate_templ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 54
+
+2020-03-15T12:45:23+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">./blocks/base/footer1.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:54
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(38): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/footer.php(2): renderBlock('\\Controllers\\Bl...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(722): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(671): load_template('/home/i/infovok...', true)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/general-template.php(76): locate_template в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 54
+
+2020-03-15T12:56:40+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">\Controllers\Blocks\BlocksControllers\/blocks/base/footer.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:54
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/footer.php(3): renderBlock('\\Controllers\\Bl...', Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(722): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(671): load_template('/home/i/infovok...', true)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-include в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 54
+
+2020-03-15T13:01:38+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">\blocks\Pages\rowColumnsBlock.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:55
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php(7): renderBlock('\\blocks\\Pages\\r...', Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/hom в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 55
+
+2020-03-15T13:01:50+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">\blocks\Pages\Index\rowColumnsBlock.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:55
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php(7): renderBlock('\\blocks\\Pages\\I...', Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 55
+
+2020-03-15T14:11:43+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">Pages\ServicePage\rowForm.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:55
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-service.php(47): renderBlock('Pages\\ServicePa...', Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 55
+
+2020-03-15T14:15:54+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">blocks/CardProduct/intro.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:55
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-single_cardProduct.php(13): renderBlock('blocks/CardProd...', Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(724): require('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template.php(671): load_template('/home/i/infovok...', false)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 55
+
+2020-03-15T14:23:32+00:00 CRITICAL Uncaught Exception: <pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">Index\CatLinksBlock.twig</span> not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php:55
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(42): Controllers\Blocks\BlockAbstractController->render()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-main.php(14): renderBlock('Index\\CatLinksB...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+# в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlockAbstractController.php на строке 55
+
+2020-03-15T15:48:18+00:00 CRITICAL syntax error, unexpected '}' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/Pages/Catalog/Content.php на строке 23
+

@@ -6,7 +6,7 @@ class TaxonomyAbstract{
 
     protected $type;
     protected $term;
-    protected $id;
+    public $id;
     public $title;
     public $slug;
     public $description;
@@ -19,6 +19,7 @@ class TaxonomyAbstract{
     {
         $this->type = $type;
         $this->set_term($id);
+
         if($this->term)
         {
             $this->set_id();
@@ -27,9 +28,9 @@ class TaxonomyAbstract{
             $this->set_description();
             $this->set_link();
             $this->set_acf($acf);
-            $this->set_parent();
             $this->set_children();
         }
+
     }
 
     private  function set_term($id)
@@ -73,9 +74,16 @@ class TaxonomyAbstract{
         }
     }
 
-    protected function set_parent()
+    protected function set_parent($className)
     {
-        $this->parent = get_ancestors( $this->id, $this->type, 'taxonomy' );
+        if(get_ancestors( $this->id, $this->type, 'taxonomy' ))
+        {
+            $this->parent =new $className(get_ancestors( $this->id, $this->type, 'taxonomy' )[0]);
+        }else
+            {
+                $this->parent = 0;
+            }
+
     }
 
     protected function set_children()
@@ -107,6 +115,18 @@ class TaxonomyAbstract{
             {
                 $result[$key]['children'][] = new $className($tax->term_id);;
             }
+        }
+
+        return $result;
+    }
+
+    public static function set_allTerms($type='',$className='')
+    {
+        $result = [];
+
+        foreach (get_terms( $type,['hide_empty' => true,'parent'=>0]) as $key=>$item)
+        {
+            $result[] = new $className($item->term_id);
         }
 
         return $result;

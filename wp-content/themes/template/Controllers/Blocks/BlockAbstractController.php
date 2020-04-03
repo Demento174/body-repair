@@ -4,17 +4,18 @@ use Controllers\ACF\GetACF as GetACF;
 use \Controllers\PostsAndTax\PostAbstract;
 
 
-Abstract class BlockAbstractController
+class BlockAbstractController
 {
     protected $template;
     protected $id;
     protected $acf=[];
     protected $data=[];
 
-    protected function __construct($template,$id=null,$selectors=null)
+    public function __construct($template,$id=null,$selectors=null)
     {
         $this->set_template($template);
         $this->set_id($id);
+
         if($selectors)
         {
             $this->set_acf($selectors);
@@ -29,6 +30,7 @@ Abstract class BlockAbstractController
 
     private function set_id($id=null)
     {
+
         $this->id =PostAbstract::get_id($id);
     }
 
@@ -45,7 +47,16 @@ Abstract class BlockAbstractController
 
     public function render()
     {
-        \Timber::render($this->template,!empty($this->data)?$this->data:null);
+
+        if(file_exists(dirname(dirname(__DIR__)).'/'.\Timber::$dirname.'/'.$this->template))
+        {
+            
+            \Timber::render($this->template,!empty($this->data)?$this->data:null);
+        }else
+            {
+                throw new \Exception('<pre class="debug" style="background-color: rgba(0,0,0,0.8);display: inline-block;border: 5px solid springgreen;color: white;padding: 1rem;">Template: <span style="color: blue">'.$this->template.'</span> not found');
+            }
+
     }
 
     protected function set_data()

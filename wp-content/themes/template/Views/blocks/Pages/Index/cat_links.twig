@@ -1,0 +1,20 @@
+<section class="s_catalog bg-blue">
+    <div class="container">
+        <div class="row">
+            {% for item in items %}
+
+                {% set col = loop.index == 2 or loop.index == 3 or loop.index == 6 or loop.index == 7 or loop.index == 10 or loop.index == 11 or loop.index == 14 or loop.index == 15 ?9:3 %}
+                {% set class = loop.index == 2 or loop.index == 3 or loop.index == 6 or loop.index == 7 or loop.index == 10 or loop.index == 11 or loop.index == 14 or loop.index == 15?'s_catalog__itm s_catalog__itm-large':'s_catalog__itm' %}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-{{ col }} col-xl-{{ col }}">
+                    <a href="{{ item.link }}" class="{{ class }}">
+                        <div class="s_catalog__itm__thumb" style="background-image: url({{ item.acf.img.url }});"></div>
+                        <div class="s_catalog__itm__text">
+                            <div class="s_catalog__itm__title">{{ item.title }}</div>
+                            <div class="s_catalog__itm__descr">{{ item.description }}</div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

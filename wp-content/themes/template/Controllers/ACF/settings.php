@@ -10,21 +10,22 @@ return
                     'icon' => 'dashicons-admin-tools',
                     'id' => 'options',
                 ],
+                [
+                    'title'=>'Общие блоки',
+                    'slug'=>'repairs_blocks',
+                    'position' => 4,
+                    'icon' => 'dashicons-welcome-widgets-menus',
+                    'id' => 'options',
+                ],
             ],
         'optionsSubPage'=>
             [
-                [
-                    'id' => 'options_post-furniture',
-                    'slug'=>'option_post-furniture',
-                    'title'=>'Настройка блоков "Карточка товара"',
-                    'parent_slug'=> 'edit.php?post_type=furniture',
-                ],
-                [
-                    'id' => 'options_post-portfolio',
-                    'slug'=>'option_post-portfolio',
-                    'title'=>'Настройка блоков "Выполненые работы"',
-                    'parent_slug'=> 'edit.php?post_type=portfolio',
-                ],
+//                [
+//                    'id' => 'options_post-furniture',
+//                    'slug'=>'option_post-furniture',
+//                    'title'=>'Настройка блоков "Карточка товара"',
+//                    'parent_slug'=> 'edit.php?post_type=furniture',
+//                ],
             ],
-
+        'defaultOptionsPage'=>'options'
     ];

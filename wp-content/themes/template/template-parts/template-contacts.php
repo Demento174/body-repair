@@ -3,5 +3,13 @@
 Template Name: Контакты
 */
 get_header();
-renderBlock('ContactsPage',['title','phone','email','address','working_hours','requisites','map']);
+renderBlock('/blocks/Pages/Contacts/content',
+    [
+        'title',
+        'phone',
+        'address',
+        'working_hours',
+        'map',
+        'contacts'
+        ]);
 get_footer();

@@ -1,0 +1,118 @@
+
+<section class="catalog">
+        <div class="container">
+            <h1 class="s_title">{{ title }}</h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                    <div class="catalog__filter">
+                        <select class="catalog__filter__select selectized" placeholder="Выберите марку" tabindex="-1" style="display: none;">
+                            <option value="0" selected="selected">Выберите марку</option>
+                            {% for item in marks %}
+                                <option value="{{ item.id }}" {% if activeMark  == item.id %}selected{% endif %} data-id="{{ item.id }}">{{ item.title }}</option>
+                            {% endfor %}
+                        </select>
+                        <div class="selectize-control catalog__filter__select single" style="display: none">
+                            <div class="selectize-input items not-full has-options">
+                                <input type="text" autocomplete="off" tabindex="" placeholder="Выберите марку" style="width: 126.359px;">
+                            </div>
+                            <div class="selectize-dropdown single catalog__filter__select" style="display: none;">
+                                <div class="selectize-dropdown-content">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__filter__group">
+                            {% for item in details %}
+                                <label class="custom_radio">
+                                    <input type="radio" class="_select_detail" name="{{ item.slug }}" {% if activeCat == item.id %} checked {% endif %} data-id="{{ item.id }}"><span></span>{{ item.title }}</label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                    <div class="catalog__search">
+                        <form class="catalog__search__form">
+                            <input type="text" placeholder="Введите название или номер запчасти" class="catalog__search__input">
+                            <button type="submit" class="catalog__search__submit">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="catalog__current_filters">
+                        {% for item in marks %}
+                            {% if item.id %}
+                                <div class="catalog__current_filters__itm mark" style="display: none;" data-id="{{ item.id }}">
+                                    <button class="remove_btn" data-id="{{ item.id }}"></button>{{ item.title }}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                        {% for item in details %}
+                            {% if item.id %}
+                                <div class="catalog__current_filters__itm detail" style="display: none;" data-id="{{ item.id }}">
+                                    <button class="remove_btn" data-id="{{ item.id }}"></button>{{ item.title }}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="catalog__list" data-paginationQuantity="{{ pagination_quantity }}">
+                        <div class="wrapper" data-number="1">
+                        {% for item in products %}
+                            <div class="catalog__itm" data-marks="{{ item.marks }}" data-details="{{ item.details }}" data-none=""  data-active="" data-cats="{{ item.cats }}">
+                                <div class="catalog__itm__thumb">
+                                    <a href="{{ item.link }}">
+                                        {% if item.img %}
+                                        <img src="{{ item.img }}" alt="{{ item.title }}">
+                                        {% else %}
+                                            <img src="{{ default_img.url }}" alt="{{ default_img.alt }}">
+                                        {% endif %}
+                                    </a>
+                                </div>
+                                <div class="catalog__itm__info">
+                                    <p>В наличии: {{ item.stock }}</p>
+                                    <a href="{{ item.link }}">
+                                        <div class="catalog__itm__title">{{ item.title }}</div>
+                                    </a>
+                                    <p>{{ item.manufacturer }}</p>
+                                </div>
+                                <div class="catalog__itm__right__wrapper">
+                                    <div class="catalog__itm__right">
+                                        <button class="btn btn__buy" data-id="{{ item.id }}" data-quantity="1">положить в заказ</button>
+                                        <div class="catalog__itm__price">Цена: <b> <span class="number-division">{{ item.price }}</span> ₽</b></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        {% if loop.index % pagination_quantity == 0 and loop.last == false  %}
+                        </div>
+                        <div class="wrapper" data-number="{{ (loop.index / pagination_quantity)+1 }}">
+                        {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                    <div class="hidden_items" style="display: none !important;">
+
+                    </div>
+                    <div class="catalog__pager">
+                        <a href="#" class="catalog__pager__prev">
+                            <span>
+                                <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 6.5L1.29289 5.79289L0.585786 6.5L1.29289 7.20711L2 6.5ZM6.79289 0.292893L1.29289 5.79289L2.70711 7.20711L8.20711 1.70711L6.79289 0.292893ZM1.29289 7.20711L6.79289 12.7071L8.20711 11.2929L2.70711 5.79289L1.29289 7.20711Z" fill="currentColor"></path>
+                                </svg>
+                            </span>Предыдущая
+                        </a>
+                        <ul>
+                            <li>1</li>
+                        </ul>
+                        <a href="#" class="catalog__pager__next">
+                            Следующая
+                            <span>
+                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.5 6.5L7.20711 7.20711L7.91421 6.5L7.20711 5.79289L6.5 6.5ZM1.70711 12.7071L7.20711 7.20711L5.79289 5.79289L0.292893 11.2929L1.70711 12.7071ZM7.20711 5.79289L1.70711 0.292893L0.292894 1.70711L5.79289 7.20711L7.20711 5.79289Z" fill="currentColor"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>

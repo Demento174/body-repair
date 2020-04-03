@@ -1,6 +1,6 @@
 import { Config } from  '../settings';
 import {queryElement} from "../common";
-const settings = Config.modules.heightBlocksInGrid.selectors;
+// const settings = Config.modules.heightBlocksInGrid.selectors;
 
 export default class HeightBlocksInGrid {
     constructor(options = [])
@@ -40,13 +40,18 @@ export default class HeightBlocksInGrid {
     handler(elements)
     {
         let maxHeight = 0;
+        let elementHeight = 0;
+
         elements.forEach(element=>
         {
-            if(element.offsetHeight > maxHeight)
+            elementHeight = element.scrollHeight;
+
+            if(elementHeight > maxHeight)
             {
-                maxHeight = element.offsetHeight;
+                maxHeight = element.scrollHeight;
             }
         });
+
         elements.forEach(element=>
         {
             element.style.height  = `${maxHeight}px`;

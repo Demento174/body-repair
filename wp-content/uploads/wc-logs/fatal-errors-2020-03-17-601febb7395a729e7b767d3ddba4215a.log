@@ -1,0 +1,51 @@
+2020-03-17T06:30:06+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unexpected "endfor" tag (expecting closing tag for the "if" tag defined near line 51). in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Catalog/content.twig:72
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/IfTokenParser.php(41): Twig\Parser->subparse(Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_ht в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Catalog/content.twig на строке 72
+
+2020-03-17T06:32:03+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unexpected "loop" tag (expecting closing tag for the "if" tag defined near line 51). in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Catalog/content.twig:52
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/IfTokenParser.php(41): Twig\Parser->subparse(Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TokenParser/ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Catalog/content.twig на строке 52
+
+2020-03-17T06:35:13+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(497) : eval()'d code:137
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(455): __TwigTemplate_9d20d14e8983ac1ca488ba4aa53c76f8e1bff103ae29b5cbf2618465c92db2d6->doDisplay(Array, Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(422): Twig\Template->displayWithErrorHandling(Array, Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(434): Twig\Template->display(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(497) : eval()'d code на строке 137
+
+2020-03-17T06:35:41+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(497) : eval()'d code:139
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(455): __TwigTemplate_9d20d14e8983ac1ca488ba4aa53c76f8e1bff103ae29b5cbf2618465c92db2d6->doDisplay(Array, Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(422): Twig\Template->displayWithErrorHandling(Array, Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Template.php(434): Twig\Template->display(Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(497) : eval()'d code на строке 139
+
+2020-03-17T13:45:09+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-17T13:53:38+00:00 CRITICAL Uncaught Error: Undefined constant 'r\n' in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Form/FormController.php:89
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Form/FormController.php(24): Controllers\Form\FormController->set_file(Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(72): Controllers\Form\FormController->__construct(Array)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->send_form('')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Form/FormController.php на строке 89
+

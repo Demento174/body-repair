@@ -8,7 +8,7 @@ class SocialNetworks extends \Controllers\Blocks\BlockAbstractController {
         [
              'template'  => './blocks/details/social',
              'id' => 'options',
-             'fields' => ['social_network'],
+             'field' => 'social_networks',
         ];
 
 
@@ -25,9 +25,9 @@ class SocialNetworks extends \Controllers\Blocks\BlockAbstractController {
     }
 
     public static function get_data()
-    {
+    {       
 
-        return get_field(self::$options['fields'][0],self::$options['id']);
+        return get_field(self::$options['field'],self::$options['id']);
     }
 
 }

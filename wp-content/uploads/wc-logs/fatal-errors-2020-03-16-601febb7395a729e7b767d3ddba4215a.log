@@ -1,0 +1,57 @@
+2020-03-16T08:53:37+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php:40
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(22): Controllers\PostsAndTax\PostProduct->set_number()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostAbstract.php(89): Controllers\PostsAndTax\PostProduct->__construct(151)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostAbstract.php(101): Controllers\PostsAndTax\PostAbstract::convert_post(Array, '\\Controllers\\Po...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(60): Controllers\PostsAndTax\PostAbstract::get_all_posts('product', '\\Controllers\\Po...')
+#4 /home/i/infovokh/body-repair.vold74.ru в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php на строке 40
+
+2020-03-16T09:11:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_price(), 0 passed in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php on line 35 and exactly 1 expected in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php:830
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostProduct.php(35): WC_Product->set_price()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostAbstract.php(89): Controllers\PostsAndTax\PostProduct->__construct(151)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/PostsAndTax/PostAbstract.php(101): Controllers\PostsAndTax\PostAbstract::convert_post(Array, '\\Controllers\\Po...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controlle в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php на строке 830
+
+2020-03-16T12:16:19+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-16T12:30:35+00:00 CRITICAL Uncaught Twig\Error\SyntaxError: Unknown "foir" tag. Did you mean "for"? in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Cart/content.twig:7
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environ в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views/blocks/Pages/Cart/content.twig на строке 7
+
+2020-03-16T12:34:14+00:00 CRITICAL syntax error, unexpected ',' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/Pages/Cart/Content.php на строке 40
+
+2020-03-16T14:12:19+00:00 CRITICAL Uncaught Twig\Error\LoaderError: Unable to find template "./blocks/form/form_modal.twig" (looked into: /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views, ) in "./blocks/base/modal.twig" at line 7. in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php:265
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('./blocks/form/f...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('./blocks/form/f...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-co в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php на строке 265
+
+2020-03-16T14:12:22+00:00 CRITICAL Uncaught Twig\Error\LoaderError: Unable to find template "./blocks/form/form_modal.twig" (looked into: /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views, ) in "./blocks/base/modal.twig" at line 7. in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php:265
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('./blocks/form/f...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('./blocks/form/f...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-co в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php на строке 265
+
+2020-03-16T14:12:40+00:00 CRITICAL Uncaught Twig\Error\LoaderError: Unable to find template "./blocks/form/personal.twig" (looked into: /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views, ) in "./blocks/base/modal.twig" at line 18. in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php:265
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('./blocks/form/p...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('./blocks/form/p...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-con в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php на строке 265
+
+2020-03-16T14:12:43+00:00 CRITICAL Uncaught Twig\Error\LoaderError: Unable to find template "./blocks/form/personal.twig" (looked into: /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views, ) in "./blocks/base/modal.twig" at line 18. in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php:265
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('./blocks/form/p...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('./blocks/form/p...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-con в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php на строке 265
+

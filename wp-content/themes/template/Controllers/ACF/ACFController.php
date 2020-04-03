@@ -8,7 +8,7 @@ class ACFController{
     {
         if($this->checkPlugin())
         {
-            $this->settings = !$settings?require_once('settings.php'):$settings;
+            $this->settings = !$settings?require('settings.php'):$settings;
             $this->handler();
         }
     }

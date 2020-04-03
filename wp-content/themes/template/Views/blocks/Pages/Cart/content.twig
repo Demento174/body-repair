@@ -1,0 +1,60 @@
+<section class="s_catr">
+    <div class="container">
+        <h1 class="s_title">{{ title }}</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                <div class="s_catr__list">
+                    {% for item in basket %}
+                        <div class="s_catr__itm mobile_flex_column mobile_align_center">
+                        <div class="s_catr__itm__info">
+                            <div class="s_catr__itm__title">{{ item.product.title }}</div>
+{#                            <div class="s_catr__itm__subtitle">Марка: МАЗ</div>#}
+                        </div>
+                        <div class="s_catr__itm__params">
+                            <p>Номер: {{ item.product.number }}</p>
+                            <p>Цена: <b><span class="number-division">{{ item.product.price }}</span> ₽</b></p>
+                        </div>
+                        <div class="cnt_input">
+                            <input type="text" value="{{ item.quantity }}" data-id="{{ item.key }}">
+                            <div class="cnt_input__btns">
+                                <button class="plus plusProduct" >
+                                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.5 5.5L5.5 1.5L1.5 5.5" stroke="#808080" stroke-width="2"></path>
+                                    </svg>
+                                </button>
+                                <button class="minus minusProduct"><svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.5L5.5 5.5L9.5 1.5" stroke="#808080" stroke-width="2"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn btn-reverce btn__remove" data-id="{{ item.key }}">Удалить</button>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="s_catr__total">На сумму  <b><span class="number-division">{{ total_price }}</span> ₽</b></div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                {% if basket %}
+                <form class="s_cart__order_form _form">
+                    <h2 class="s_title">{{ form_title }}</h2>
+                    <input type="hidden" name="type" data-name="type" value="createOrder">
+                    <div class="form__input">
+                        <input type="text" data-name="name" placeholder="ФИО получателя" required>
+                    </div>
+                    <div class="form__input">
+                        <input type="text" data-name="phone" placeholder="Контактный телефон" required>
+                    </div>
+                    <div class="form__input" data-tab="order-tab" style="display: none">
+                        <input type="text" data-name="address" placeholder="Адрес доставки">
+                    </div>
+                    <label class="form__checkbox" data-tab="order-tab">
+                        <input type="checkbox" data-name="exclude"><span></span>Мне нужна доставка
+                    </label>
+                    <button class="btn" type="submit">{{ form_btn }}</button>
+                </form>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

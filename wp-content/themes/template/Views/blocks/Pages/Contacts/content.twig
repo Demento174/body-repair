@@ -1,0 +1,50 @@
+
+<section class="s_contacts">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <h1 class="s_title">{{ title }}</h1>
+                <div class="s_contacts__info">
+                    <div class="s_contacts__itm">
+                        <div class="s_contacts__itm__ico">
+                            <span>
+                                <img src="{{ contacts.adress.icon.url }}" alt="{{ contacts.adress.icon.alt }}">
+                            </span>
+                        </div>
+                        <div class="s_contacts__itm__val">
+                            <p><b>{{ contacts.adress.title }}</b></p>
+                            <p>{{ address }}</p>
+                        </div>
+                    </div>
+                    <div class="s_contacts__itm">
+                        <div class="s_contacts__itm__ico">
+                            <span>
+                                <img src="{{ contacts.phone.icon.url }}" alt="{{ contacts.phone.icon.alt }}">
+                            </span>
+                        </div>
+                        <div class="s_contacts__itm__val">
+                            <p><b>{{ contacts.phone.title }}</b></p>
+                            <p><a href="tel:{{ phone }}">{{ phone }}</a></p>
+                        </div>
+                    </div>
+                    <div class="s_contacts__itm">
+                        <div class="s_contacts__itm__ico">
+                            <span>
+                                <img src="{{ contacts.working_house.icon.url }}" alt="{{ contacts.working_house.icon.alt }}">
+                            </span>
+                        </div>
+                        <div class="s_contacts__itm__val">
+                            <p><b>{{ contacts.working_house.title }}</b></p>
+                            <p>{{ working_hours }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="s_info__map">
+                    {{ map|raw }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

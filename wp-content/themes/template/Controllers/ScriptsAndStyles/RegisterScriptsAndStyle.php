@@ -37,11 +37,17 @@ class RegisterScriptsAndStyle{
     private function register_script($title,$path,$deps=null,$ver=null,$in_footer=null)
     {
         wp_enqueue_script( $title, $path, $deps, $ver,$in_footer);
+
+        wp_localize_script( $title, 'ajax',
+            array(
+                'url' => admin_url('admin-ajax.php')
+            )
+        );
     }
 
     private function register_style($title,$path,$deps=null,$ver=null,$media=null)
     {
-        wp_enqueue_script( $title, $path, $deps, $ver,$media);
+        wp_enqueue_style( $title, $path, $deps, $ver,$media);
     }
 
 
@@ -60,7 +66,7 @@ class RegisterScriptsAndStyle{
                       );
               }else
                     {
-                        $this->register_script(
+                        $this->register_style(
                             $this->set_script_or_style_title($item['src']),
                             $this->folder.$item['src'],
                             isset($item['deps'])?$item['deps']:null,

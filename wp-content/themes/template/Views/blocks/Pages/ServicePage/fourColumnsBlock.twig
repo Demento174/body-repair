@@ -1,0 +1,18 @@
+<section class="s_roadmap bg-blue">
+    <div class="container">
+        <div class="row">
+            {% for item in items %}
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                    <div class="s_roadmap__itm">
+                        <div class="s_roadmap__itm__ico">
+                            <img src="{{ item.img.url }}" alt="{{ item.img.alt }}">
+                        </div>
+                        <div class="s_roadmap__itm__descr">
+                            <p>{{ item.content }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+2020-03-10T13:15:39+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-10T14:06:20+00:00 CRITICAL Uncaught Twig\Error\LoaderError: Unable to find template ".blocks/details/social.twig" (looked into: /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/Blocks/BlocksControllers/Base, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template, /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Views, ) in "./blocks/base/header.twig" at line 12. in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php:265
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('.blocks/details...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('.blocks/details...')
+#2 /home/i/infovokh/body-repair.vold в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php на строке 265
+

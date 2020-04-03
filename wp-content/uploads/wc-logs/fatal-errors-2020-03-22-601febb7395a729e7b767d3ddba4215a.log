@@ -1,0 +1,368 @@
+2020-03-22T12:17:14+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/i/infovok...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): WPLessGarbagecollector->clean()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(544): WP_Hook->do_action(Ar в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php на строке 47
+
+2020-03-22T13:01:32+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::set_quantity() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:57
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('255', '7')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 57
+
+2020-03-22T13:01:46+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::set_quantity() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:57
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('255', '7')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 57
+
+2020-03-22T13:03:13+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::set_quantity() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('fe131d7f5a6b38b...', '7')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:04:57+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /home/i/infovokh/body-repai в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php на строке 231
+
+2020-03-22T13:05:09+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /home/i/infovokh/body-repai в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php на строке 231
+
+2020-03-22T13:06:29+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('fe131d7f5a6b38b...', '7')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:06:59+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /home/i/infovokh/body-repai в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php на строке 231
+
+2020-03-22T13:11:50+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /home/i/infovokh/body-repai в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php на строке 231
+
+2020-03-22T13:16:07+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /home/i/infovokh/body-repai в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php на строке 231
+
+2020-03-22T13:37:27+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('fe131d7f5a6b38b...', '7')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:37:27+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('fe131d7f5a6b38b...', '8')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(190): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:41:20+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('6da9003b743b65f...', '4')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_changeQ...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:42:19+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('c52f1bd66cc19d0...', '2')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_changeQ...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:42:40+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('c52f1bd66cc19d0...', '2')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_changeQ...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:43:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 79
+
+2020-03-22T13:45:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php:621
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(79): WC_Cart::get_cart_item('c52f1bd66cc19d0...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#6 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php на строке 621
+
+2020-03-22T13:45:23+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php:621
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(79): WC_Cart::get_cart_item('c52f1bd66cc19d0...')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php на строке 621
+
+2020-03-22T13:45:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1190
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(79): WC_Cart::set_quantity('c52f1bd66cc19d0...', 1)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#6 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php на строке 1190
+
+2020-03-22T13:45:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1190
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(79): WC_Cart::set_quantity('c52f1bd66cc19d0...', 1)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#6 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php на строке 1190
+
+2020-03-22T13:46:28+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:73
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(609): WC_Cart_Session->get_cart_from_session()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(630): WC_Cart->get_cart()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1230): WC_Cart->is_empty()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1196): WC_Cart->calculate_totals()
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(80): WC_Cart->set_quantity('c52f1bd66cc19d0...', 1)
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok.. в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php на строке 73
+
+2020-03-22T13:47:23+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:73
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(609): WC_Cart_Session->get_cart_from_session()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(630): WC_Cart->get_cart()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1230): WC_Cart->is_empty()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1196): WC_Cart->calculate_totals()
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(80): WC_Cart->set_quantity('c52f1bd66cc19d0...', 1)
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok.. в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php на строке 73
+
+2020-03-22T13:47:45+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_item() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:80
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 80
+
+2020-03-22T13:49:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_item() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:80
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(22): require_once('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 80
+
+2020-03-22T13:55:51+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 68
+
+2020-03-22T13:56:02+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('f718499c1c8cef6...', '3')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_changeQ...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T13:56:34+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_item() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:01+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart_item() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:02+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart_item() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:02+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_cart_item() in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:47+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:47+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:48+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T13:58:48+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:77
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 77
+
+2020-03-22T14:08:06+00:00 CRITICAL Uncaught Error: Class 'Controllers\WC\WC_Cart' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php:59
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/SimpleAJAX/Controllers/SImpleAJAX.php(92): Controllers\WC\WCController::changeQuantityInCart('f718499c1c8cef6...', '2')
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(288): SimpleAJAX->changeQuantityInCart('')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_changeQ...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/Controllers/WC/WCController.php на строке 59
+
+2020-03-22T14:08:41+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-22T14:08:50+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:73
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(609): WC_Cart_Session->get_cart_from_session()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(630): WC_Cart->get_cart()
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1230): WC_Cart->is_empty()
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1196): WC_Cart->calculate_totals()
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php(78): WC_Cart->set_quantity('f718499c1c8cef6...', 2)
+#5 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include('/home/i/infovok.. в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php на строке 73
+
+2020-03-22T14:10:39+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+
+2020-03-22T14:10:51+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:78
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-settings.php(497): include()
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-config.php(89): require_once('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-load.php(37): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(13): require_once('/home/i/infovok...')
+#4 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#5 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 78
+

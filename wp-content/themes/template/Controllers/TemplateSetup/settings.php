@@ -6,7 +6,7 @@ return
                 [
                     'title'=>'post-thumbnails',
                     'options'=>
-                        ['post','furniture','portfolio'],
+                        ['page','post','product'],
                 ],
                 [
                     'title'=>'post-formats',

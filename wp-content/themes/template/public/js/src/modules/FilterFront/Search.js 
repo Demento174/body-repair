@@ -1,0 +1,60 @@
+import FilterElements from "./FilterElements";
+import AssemblyWrapper from "./AssemblyWrapper";
+import {queryElement} from "../../common";
+
+export default class Search extends FilterElements{
+    constructor(value)
+    {
+        super();
+        this.visibleItems = `${this.settings.selectors.wrappers} ${this.settings.selectors.items}`;
+        this.handler(value);
+    }
+
+    set visibleItems(selector)
+    {
+        // this._visibleItems = [];
+        // items.forEach(item=>
+        // {
+        //     if(item.style.display !== 'none')
+        //     {
+        //         this._visibleItems.push(item);
+        //     }
+        // });
+
+        this._visibleItems = document.querySelectorAll(selector);
+    }
+    get visibleItems()
+    {
+        return this._visibleItems;
+    }
+
+    handler(value)
+    {
+        if( this.visibleItems.length === 0 && value !=='' && value !== ' ')
+        {
+            return;
+        }else if(value === '' || value === ' ')
+            {
+                this.items.forEach(item=>
+                {
+                    item.style.display = '';
+                });
+            }else
+                {
+                    this.visibleItems.forEach(item=>
+                    {
+
+                        if(item.querySelector(this.settings.selectors.itemTitle).innerText.indexOf(value) !== -1)
+                        {
+                            item.style.display = '';
+                        }else
+                        {
+                            item.style.display = 'none';
+                        }
+                    });
+                }
+
+
+        new AssemblyWrapper();
+    }
+}

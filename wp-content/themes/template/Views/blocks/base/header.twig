@@ -1,34 +1,48 @@
-<header>
+
+<header class="header">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
-                <div class="logo">
-                    <a class="align_end" href="{{ logo.link }}"><img src="{{ logo.img.url }}" alt="{{ logo.img.alt }}"></a>
+        <div class="row align-items-center header__top">
+            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 mobile_textCenter">
+                {{ address }}
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg col-xl mobile_textCenter">{{ working_hours }}</div>
+            <div class="col-sm-12 col-md-12 col-lg-auto col-xl-auto">
+                <div class="header__messengers mobile_justify_center">
+                    {% include './blocks/details/social.twig' %}
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
-                <span class="text">
-                    {{ content }}
-                </span>
+            <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                <div class="header__tel mobile_textCenter">
+                    <a href="tel:{{ phone }}">{{ phone }}</a>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
-                <span class="text">
-                    {{ address }}
-                </span>
-            </div>
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-lg-2">
-                <span class="text">
-                    {{ working_hours | raw }}
-                </span>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lg-4">
-                <div class="flex_row justify_center phone_btn">
-                    <a href="tel:{{ phone }}" class="btn btn--opacity">
-                        {{ phone }}
+        </div>
+        <div class="header__bot">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <a href="{{ logo.link }}" class="header__logo mobile_justify_center"><img src="{{ logo.img.url }}" alt="">
+                        <p>{{ content }}</p>
                     </a>
-                    <div class="btn btn--dark btn--callback" data-target="#callback" data-title="{{ get_field('formModal_title','options') }}" data-toggle="modal">
-                        Обратный звонок
-                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <nav class="header__nav">
+                        {% include './blocks/base/navigation.twig' %}
+                    </nav>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <a href="{{ cart_url }}" class="header__cart">
+                        <span class="header__cart__ico">
+                            <img src="{{ basket_icon.url }}" alt="{{ basket_icon.alt }}">
+                            <span class="header__cart__cnt">{{ count }}</span>
+                        </span>
+                        <div class="header__cart__val">
+                            {% if total_price == 0 %}
+                                <p>Ваша корзина пуста</p>
+                            {% else %}
+                                <b><span class="number-division">{{ total_price }}</span> ₽</b>
+                            {% endif %}
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

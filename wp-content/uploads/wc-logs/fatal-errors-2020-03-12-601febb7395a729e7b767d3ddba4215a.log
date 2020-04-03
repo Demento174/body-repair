@@ -1,0 +1,36 @@
+2020-03-12T09:48:58+00:00 CRITICAL Uncaught Error: Class '\Controllers\Blocks\BlocksControllers\Titles\ServiceTitleBlock' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:34
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-service.php(8): renderBlock('\\Controllers\\Bl...', Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 34
+
+2020-03-12T09:49:09+00:00 CRITICAL Uncaught Error: Class '\Controllers\Blocks\BlocksControllers\Titles\ServiceTitleBlock' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:34
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-service.php(8): renderBlock('\\Controllers\\Bl...', Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 34
+
+2020-03-12T09:49:11+00:00 CRITICAL Uncaught Error: Class '\Controllers\Blocks\BlocksControllers\Titles\ServiceTitleBlock' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:34
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-service.php(8): renderBlock('\\Controllers\\Bl...', Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 34
+
+2020-03-12T09:49:12+00:00 CRITICAL Uncaught Error: Class '\Controllers\Blocks\BlocksControllers\Titles\ServiceTitleBlock' not found in /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php:34
+Stack trace:
+#0 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/template-parts/template-service.php(8): renderBlock('\\Controllers\\Bl...', Array)
+#1 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-includes/template-loader.php(98): include('/home/i/infovok...')
+#2 /home/i/infovokh/body-repair.vold74.ru/public_html/wp-blog-header.php(19): require_once('/home/i/infovok...')
+#3 /home/i/infovokh/body-repair.vold74.ru/public_html/index.php(17): require('/home/i/infovok...')
+#4 {main}
+  thrown в /home/i/infovokh/body-repair.vold74.ru/public_html/wp-content/themes/template/functions.php на строке 34
+

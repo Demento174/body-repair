@@ -1,0 +1,14 @@
+<section class="s_mark_catalog">
+    <div class="container">
+        <h2 class="s_title">{{ title }}</h2>
+        <div class="s_mark_catalog__list">
+            <ul class="mobile_flex_column">
+                {% for item in items %}
+                    {% if item.title %}
+                        <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

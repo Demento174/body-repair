@@ -1,0 +1,39 @@
+<div class="s_card">
+    <div class="container">
+        <div class="s_card__roadmap">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    <h3 class="s_title">{{ sale_title }}</h3>
+                    <div class="s_card__roadmap__list mobile_flex_column mobile_align_center">
+                        {% for item in sale %}
+                            <div class="s_roadmap__itm mobile_flex_column mobile_align_center" >
+                            <div class="s_roadmap__itm__ico">
+                                <img src="{{ item.img.url }}" alt="{{ item.img.alt }}">
+                            </div>
+                            <div class="s_roadmap__itm__descr">
+                                <p>{{ item.content }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 s_card__delivery">
+                    <h3 class="s_title">{{ delivery_title }}</h3>
+                    <div class="s_card__roadmap__list mobile_flex_column align_center">
+                        {% for item in delivery %}
+                            <div class="s_roadmap__itm mobile_flex_column mobile_align_center">
+                                <div class="s_roadmap__itm__ico">
+                                    <img src="{{ item.img.url }}" alt="{{ item.img.alt }}">
+                                </div>
+                                <div class="s_roadmap__itm__descr">
+                                    <p>{{ item.content }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

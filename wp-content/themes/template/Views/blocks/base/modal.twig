@@ -1,14 +1,65 @@
-<section class="modal modal_hide modal_data fade" id="callback" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<section class="modal modal_hide modal_data fade" id="name_phone_file" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
-			{% include './blocks/form/form_modal.twig' %}
-			</div>
+			{% if get_field('servicePage_formModal_cost_title','options') %}
+				<h4>{{ get_field('servicePage_formModal_cost_title','options') }}</h4>
+			{% endif %}
+			<form action="/" class="_form">
+				<div class="flex_column align_center">
+					<input data-title="Форма" data-name="form" type="hidden" value="Заявка с страницы услуги на оценку работ">
+					<input type="text" class="input" placeholder="Ваше Имя" data-title="Имя" data-name = "name">
+					<input type="tel" class="input" placeholder="Контактный телефон" data-title="Телефон" data-name = "phone">
+					<label for="file_cost" class="file" >
+						загрузить файл
+						<input type="file" id="file_cost" name="file_cost"  data-title="Фото на оценку работ" data-name = "photo">
+					</label>
+					{% include './blocks/base/form/personal.twig' %}
+					<button class="btn btn--brown send">
+						{{ get_field('servicePage_formModal_cost_btn','options') }}
+					</button>
+					<div class="response">
+						{{ get_field('servicePage_formModal_cost_response','options') }}
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
 </section>
+
+<section class="modal modal_hide modal_data fade" id="name_phone_product" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			{% if get_field('productPage_formModal_buy_title','options') %}
+				<h4>{{ get_field('productPage_formModal_buy_title','options') }}</h4>
+			{% endif %}
+			<form action="/" class="_form">
+				<div class="flex_column align_center">
+					<input data-title="Форма" data-name="form" type="hidden" value="Заявка Забранировать тоовар в клик">
+					<input type="hidden" data-title="Товар" data-name="product">
+					<input type="hidden" data-title="Артикуль" data-name="number">
+					<input type="hidden" data-title="Количество" data-name="quantity">
+					<input type="text" class="input" placeholder="Ваше Имя" data-title="Имя" data-name = "name">
+					<input type="tel" class="input" placeholder="Контактный телефон" data-title="Телефон" data-name = "phone">
+					{% include './blocks/base/form/personal.twig' %}
+					<button class="btn btn--brown send">
+						{{ get_field('productPage_formModal_buy_btn','options') }}
+					</button>
+					<div class="response">
+						{{ get_field('productPage_formModal_buy_response','options') }}
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+
 <section class="modal modal_hide modal_data fade" id="personal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
@@ -19,4 +70,8 @@
 		</div>
 	</div>
 	</div>
+</section>
+
+<section class="messageAfterBuy">
+	<span>Товар добавлен в корзину</span>
 </section>

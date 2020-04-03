@@ -11,22 +11,29 @@ module.exports =
                 path:path.resolve('public/js'),
                 filename:'index.js',
             },
+        // optimization: {
+        //     minimize: true,
+        //     removeEmptyChunks: true
+            // minimizer: [new UglifyJsPlugin({
+            //     include: /\.min\.js$/
+            // })]
+        // },
         module: {
             rules: [
                 {
                     test: /\.less$/,
                     use:
-                            [
-                                {
-                                    loader: 'style-loader'
-                                },
-                                {
-                                    loader: 'css-loader'
-                                },
-                                {
-                                    loader: 'less-loader'
-                                }
-                            ]
+                        [
+                            {
+                                loader: 'style-loader'
+                            },
+                            {
+                                loader: 'css-loader'
+                            },
+                            {
+                                loader: 'less-loader'
+                            }
+                        ]
                 },
                 {
                     test: /\.css$/i,

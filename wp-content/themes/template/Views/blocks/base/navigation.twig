@@ -1,37 +1,18 @@
-<section class="navigation_wrapper">
-    <div class="switch_btn"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-lg-12">
-{#                <nav class="navigation flex_row justify_around align_center">#}
-{#                    <li>#}
-{#                        <a href="/">#}
-{#                            Мебель на заказ#}
-{#                        </a>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <a href="/">#}
-{#                            Каталог#}
-{#                        </a>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <a href="/">#}
-{#                            Выполненые работы#}
-{#                        </a>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <a href="/">#}
-{#                            Отзывы#}
-{#                        </a>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <a href="/">#}
-{#                            Контакты#}
-{#                        </a>#}
-{#                    </li>#}
-{#                </nav>#}
-                {{ menu_header() }}
-            </div>
-        </div>
-    </div>
-</section>
+<ul id="menu-menu" class="">
+    <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-180">
+        <a href="{{ get_page_link(76) }}">Каталог</a>
+    </li>
+    <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-180">
+        <a >Услуги</a>
+        <ul class="sub-menu">
+            {% for item in get_pagesServices() %}
+                <li id="menu-item-{{ item.ID }}" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182">
+                    <a href="{{ get_page_link(item.ID) }}">{{ item.post_title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
+        <a href="{{ get_page_link(82) }}">Контакты</a>
+    </li>
+</ul>

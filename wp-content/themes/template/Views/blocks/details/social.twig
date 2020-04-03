@@ -1,10 +1,3 @@
-<div class="social_network">
-    <div class="icons flex_row">
-        {% for item in social_networks() %}
-            <a href="{{ item.link }}" target="_blank" class="center">
-               {{ item.icon | raw }}
-            </a>
-        {% endfor %}
-    </div>
-
-</div>
+{% for item in social_networks() %}
+    <a class="social__icon"  target="_blank" href="{{ item.link }}" style="color: {{ item.color }}">{{ item.icon | raw }}</a>
+{% endfor %}

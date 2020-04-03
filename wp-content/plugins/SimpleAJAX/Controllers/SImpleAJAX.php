@@ -47,37 +47,57 @@ class SimpleAJAX {
 			);
 		}
 	}
+	
+	function cart_items_count()
+    {
+        if($_POST)
+        {
+
+            echo WC()->cart->get_cart_contents_count();
+        }
+
+        wp_die();
+    }
+
+    function cart_amount()
+    {
+        if($_POST)
+        {
+
+            echo floatval(preg_replace('#[^\d.]#', '', str_replace('&#8381;', '', WC()->cart->get_cart_subtotal())));
+        }
+        wp_die();
+    }
 
     function send_form()
     {
+
         if($_POST){
-
-            $headers = 'From: Furniture <mail@usedcars.demento174.ru>' . "\r\n";
-            $str = '';
-
-            if($_POST['form'])
+            if(!isset($_POST['type']))
             {
-                $str.= 'Заявка с формы: '.$_POST['form']. "\r\n";
-            }
+                unset($_POST['action']);
+                new \Controllers\Form\FormController($_POST);
+            }else if($_POST['type'] === 'createOrder')
+                {
+                   \Controllers\WC\WCController::createOrder($_POST);
+                }
 
-            if($_POST['name']){
-                $str.='Имя: '.$_POST['name']."\r\n";
-            }
+        }
+    }
 
-            if($_POST['phone']){
-                $str.='Телефон: '.$_POST['phone']. "\r\n";
-            }
+    function removeFromBasket()
+    {
+        if($_POST['key'])
+        {
+            \Controllers\WC\WCController::removeFromBasket($_POST['key']);
+        }
+    }
 
-
-            if($_POST['email']){
-                $str.='Email: '.$_POST['email']."\r\n";
-            }
-
-
-            $to = $_POST['emailTo']?$_POST['emailTo']:get_field('email','options');
-
-            wp_mail( $to,'sale.planeta-avto.ru',  $str, $headers);
-            wp_die('end');
+    function changeQuantityInCart()
+    {
+        if($_POST['key'] && $_POST['quantity'])
+        {
+            \Controllers\WC\WCController::changeQuantityInCart($_POST['key'] ,$_POST['quantity']);
         }
     }
 }
